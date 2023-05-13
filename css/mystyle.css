@@ -1,0 +1,83 @@
+.pstyle {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.common {
+    /* background-color: #cccc; */
+    border: 2px solid white;
+    position: absolute;
+}
+.headerz {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+   }
+
+
+
+
+.footer {
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    bottom: 5px;
+    font-size: 8px;
+    color: #999;
+    text-align: center;
+    padding-top: 15px;
+    position: fixed;
+}
+
+.name {
+    font-style:oblique;
+    font-family:fantasy;
+    font-weight: lighter;
+    color: rgb(67, 67, 169);
+    float: right;
+}
+
+.homebg {
+    background-image: url('../images/Picnic_background.jpg');
+}
+.months {
+    font-size: large;
+    color: cornflowerblue;
+    font-weight: bold;
+}
+.flavors {
+    font-size: medium;
+    color: black;
+    font-weight: normal;
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .container {
+    column-count: 3;
+    column-gap: 40px;
+  }
+  div {
+    column-count: 3;
+    column-fill: balance-all;
+  }
+
+  .header {
+    float: left;
+  }
